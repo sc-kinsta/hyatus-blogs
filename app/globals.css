@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply flex flex-col;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  @apply !text-white;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  @apply max-sm:!text-lg;
+}
